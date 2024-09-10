@@ -4,7 +4,7 @@ import time
 import pandas as pd
 
 # Load the dataset
-data = pd.read_csv("data/fraudTrain.csv")
+data = pd.read_csv("./data/fraudTrain.csv")
 
 # Initialize Kafka producer
 producer = KafkaProducer(bootstrap_servers='kafka:9092',
